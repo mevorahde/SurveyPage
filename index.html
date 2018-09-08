@@ -1,0 +1,135 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<header>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <h1 id="title" class="text-center">Survey Form</h1>
+</header>
+<main id="main">
+  <div class="container  col-xs-4">
+
+    <div class="text-center jumbotron">
+      <p id="description">Please let us know how much you love sports!</p>
+
+      <div class="row container">
+        <form action="" id="survey-form" class="surveryForm ">
+          <div class = "col-xs-6"> 
+            <label for="name" id="name-label">* Name:</label>
+            <div class="w3-container">
+              <input type="name" id="name" class="form-control" id="nameInput" placeholder="Enter name" required>
+            </div>
+          </div>
+          <div>
+            <label for="InputEmail1" id="email-label">* Email address:</label>
+            <div class="w3-container">
+              <input type="email" id="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" size="15" required>
+            </div>
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div>
+            <label for="number" id="number-label">* Age:</label>
+            <div class="w3-container">
+              <input type="number" id="number" class="form-control" id="nameInput" min="1" max="110" placeholder="Enter age" required>
+            </div>
+          </div>
+          <div>
+            <label for="dropDown" id="dropDown-label">What is your favorite Fall sport?</label>
+            <div class="w3-container" id="fallsports">
+              <select id="dropdown" name="fallSports">
+									<option disabled="" selected="" value="">Select an option</option>
+									<option value="fallSports">Football</option>
+									<option value="fallSports">Soccer</option>
+									<option value="fallSports">Volleyball</option>
+									<option value="fallSports">Golf</option>
+									<option value="fallSports">Field Hockey</option>
+									<option value="fallSports">Tennis</option>
+								</select>
+            </div>
+          </div>
+          <div>
+            <div>
+              <label id="radio-label">What is your favorite Winter sports?</label>
+            <form>
+              <div class="radioBoxRow">
+                 <fieldset>
+					<div>
+                      <div>
+                        <input type="radio" value="1" id="basketball" name="winterSport" />
+                        <label for="basketball">Basketball</label>
+                      </div>
+                      <div>
+                        <input type="radio" value="2" id="iceHockey" name="winterSport" />
+                        <label for="iceHockey">Ice Hockey</label>
+                      </div>
+
+                      <div>
+                        <input type="radio" value="3" id="skiing" name="winterSport" />
+                        <label for="skiing">Skiing</label>
+                      </div>
+
+                      <div>
+                        <input type="radio" value="4" id="snowboarding" name="winterSport" />
+                        <label for="snowboarding">Snowboarding</label>
+                      </div>
+
+                      <div>
+                        <input type="radio" value="5" id="wrestling" name="winterSport" />
+                        <label for="wrestling">Wrestling</label>
+                      </div>
+                    </div>
+                  </fieldset>
+                </div>
+            </form>
+			
+			
+              <label id="check-label">What is your favorite Spring sports?</label>
+				<div class="checkBoxRow" id="springSports">
+					<form>
+						<fieldset>
+							<li class="checkbox"><label><input name="springSports" value="1" type="checkbox" class="userRatings"> Baseball</label></li>
+							<li class="checkbox"><input name="springSports" value="2" type="checkbox" class="userRatings">Soccer</li>
+							<li class="checkbox"><label><input name="springSports" value="3" type="checkbox" class="userRatings">Softball</label></li>
+							<li class="checkbox"><label><input name="springSports" value="4" type="checkbox" class="userRatings">Lacrosse</label></li>
+							<li class="checkbox"><label><input name="springSports" value="5" type="checkbox" class="userRatings">Rugby</label></li>
+						</fieldset>
+					</form>
+              </div>
+			  
+             <div class="commentRow">
+                <div id="comment-label" class="comment-label">
+                  <label for="comments">Any sports we are missing?</label>
+                </div>
+                <div class="commentBoxRow">
+                  <textarea id="comments" name="comment" placeholder="Enter any missing sports here..."></textarea>
+                </div>
+              </div>
+            </div>
+			
+            <div class="submitRow">
+              <button id="submit" type="submit">Submit</button>
+            </div>
+
+          </div>
+
+        </form>
+        <div class="imageRow2">
+
+        </div>
+        <div>
+			<img id="imgage" src="http://images.clipartpanda.com/free-sports-clipart-play-sports-md.png" class="imageRow1 rounded img-fluid col-xs-6" alt="Sports Clip Art">
+				<div id="img-caption" class="caption">
+				<p>Thank you for sharing your sport passions and interest!<p>
+				</div>          
+        </div>
+
+	   </div>
+	</div>
+</main>
+
+<div class="col-sm">
+  <footer class="text-center ">
+    <hr>
+    <p>
+      Written and Coded by <a class="footerLink" href="https://www.freecodecamp.org/mevorahde" target="blank">David Mevorah</a>
+    </p>
+  </footer>
+</div>

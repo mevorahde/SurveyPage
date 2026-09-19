@@ -15,3 +15,7 @@ responses, and should not be used to collect personal information.
 The project is retained as a historical learning artifact and is not actively
 maintained. It does not represent my current accessibility, validation, or
 production-development standards.
+
+## License
+
+The original HTML, CSS, and documentation authored by David E. Mevorah are available under the [MIT License](LICENSE). freeCodeCamp prompts, exercise instructions, trademarks, referenced material, and other third-party content are not covered by that license.
